@@ -1,5 +1,24 @@
+/* generic font styling */
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
 body {
-display: flex;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Honk', system-ui;
+    font-size: large;
+}
+
+header {
+    background-color: orange;
 }
 
 #logo {
@@ -11,4 +30,14 @@ display: flex;
     list-style-type: none;
     border: 2px, solid, #3a3f3a;
     border-radius: 2px;
+}
+
+main {
+    background-color: black;
+    /*fills up surplus space*/
+    flex: 1 0 auto;
+}
+
+footer {
+    background-color: orange;
 }
