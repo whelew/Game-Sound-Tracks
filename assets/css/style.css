@@ -28,17 +28,18 @@ header {
 
 #logo {
     text-align: center;
-    font-size: 72px;
+    font-size: 200%;
     padding: 0px;
 }
 
 #menu {
-    display: flex;
-    justify-content: space-evenly;
+    position: absolute;
+    left: 0;
+    padding: 0 1rem;
     list-style-type: none;
     border: 2px, solid, #3a3f3a;
     border-radius: 2px;
-    font-size: 42px;
+    font-size: 100%;
 }
 
 main {
@@ -49,4 +50,24 @@ main {
 
 footer {
     background-color: rgb(153, 0, 204);
+}
+
+
+@media screen and (min-width: 900px) {
+
+    #logo {
+            text-align: center;
+            font-size: 400%;
+            padding: 0px;
+        }
+
+    #menu {
+            position: relative;
+            display: flex;
+            justify-content: space-evenly;
+            list-style-type: none;
+            border: 2px, solid, #3a3f3a;
+            border-radius: 2px;
+            font-size: 200%;
+        }
 }
