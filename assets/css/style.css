@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background-color: orange;
+    background-color: rgb(153, 0, 204);
     padding: 0 1rem;
     position: fixed;
     width: 100%;
@@ -27,7 +27,9 @@ header {
 }
 
 #logo {
-    display: flex;
+    text-align: center;
+    font-size: 72px;
+    padding: 0px;
 }
 
 #menu {
@@ -46,5 +48,5 @@ main {
 }
 
 footer {
-    background-color: orange;
+    background-color: rgb(153, 0, 204);
 }
