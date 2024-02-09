@@ -1,0 +1,14 @@
+body {
+display: flex;
+}
+
+#logo {
+    display: flex;
+}
+
+#menu {
+    display: vertical;
+    list-style-type: none;
+    border: 2px, solid, #3a3f3a;
+    border-radius: 2px;
+}
