@@ -27,8 +27,8 @@ header {
 }
 
 #logo {
-    text-align: center;
-    font-size: 200%;
+    text-align: left;
+    font-size: 4vh;
     padding: 0px;
 }
 
@@ -68,6 +68,6 @@ footer {
             list-style-type: none;
             border: 2px, solid, #3a3f3a;
             border-radius: 2px;
-            font-size: 200%;
+            font-size: 5vh;
         }
 }
