@@ -27,19 +27,24 @@ header {
 }
 
 #logo {
-    text-align: left;
+    text-align: center;
     font-size: 4vh;
     padding: 0px;
 }
 
-#menu {
+/* nav bar dropdown menu*/
+nav {
     position: absolute;
+    width: 100%;
     left: 0;
     padding: 0 1rem;
     list-style-type: none;
     border: 2px, solid, #3a3f3a;
-    border-radius: 2px;
+    border-radius: 1px;
     font-size: 100%;
+    text-align: center;
+    background-color: rgb(153, 0, 204);
+    display: none;
 }
 
 main {
