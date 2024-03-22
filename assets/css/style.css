@@ -20,7 +20,7 @@ body {
 header {
     background-color: rgb(153, 0, 204);
     padding: 0 1rem;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 99;
     box-shadow: 0 1px 1px pink;
@@ -45,6 +45,20 @@ nav {
     text-align: center;
     background-color: rgb(153, 0, 204);
     display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 3rem;
+    align-self:center;
 }
 
 main {
@@ -57,14 +71,43 @@ footer {
     background-color: rgb(153, 0, 204);
 }
 
+/* mobile screens */
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 768px) {
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #logo {
+        font-size: 150%;
+    }
+
+    nav {
+        text-align: center;
+    }  
+
+}
+
+@media screen and (min-width: 768px) {
+
+    nav {
+        display: block;
+        position: relative;
+        padding-right: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 
     #logo {
             text-align: center;
-            font-size: 400%;
+            font-size: 350%;
             padding: 0px;
         }
+
 
     #menu {
             position: relative;
