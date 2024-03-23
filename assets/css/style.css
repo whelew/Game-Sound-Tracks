@@ -23,13 +23,14 @@ header {
     position: relative;
     width: 100%;
     z-index: 99;
-    box-shadow: 0 1px 1px pink;
+    box-shadow: 0 1px 1px rgb(49, 43, 44);
 }
 
 #logo {
     text-align: center;
     font-size: 4vh;
     padding: 0px;
+    padding-bottom: 1rem;
 }
 
 /* nav bar dropdown menu*/
@@ -59,6 +60,17 @@ nav {
 .nav-toggle-label {
     font-size: 3rem;
     align-self:center;
+    padding-right: 1rem;
+}
+
+#menu {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    border: 2px, solid, #3a3f3a;
+    border-radius: 2px;
+    font-size: 3vh;
 }
 
 main {
@@ -81,21 +93,26 @@ footer {
     }
 
     #logo {
-        font-size: 150%;
+        font-size: 170%;
     }
 
     nav {
         text-align: center;
     }  
 
+    nav > a {
+        font-size: 70%;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
 
     nav {
-        display: block;
+        display: flex;
         position: relative;
-        padding-right: 1rem;
+        flex-direction: column-reverse;
+        margin-bottom: 2rem;
     }
 
     .nav-toggle-label {
@@ -104,18 +121,41 @@ footer {
 
     #logo {
             text-align: center;
-            font-size: 350%;
+            font-size: 220%;
             padding: 0px;
         }
 
 
     #menu {
-            position: relative;
-            display: flex;
-            justify-content: space-evenly;
-            list-style-type: none;
-            border: 2px, solid, #3a3f3a;
-            border-radius: 2px;
-            font-size: 5vh;
+            font-size: 180%;
+            align-self: auto;
+            margin-bottom: 1rem;
         }
+}
+
+@media screen and (min-width: 820px) {
+
+    #menu {
+        margin-bottom: 0rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    #menu {
+        font-size: 200%;
+    }
+
+    #menu a:hover {
+        border-bottom: 10px, solid, black;
+    }
+
+    #logo {
+        text-align: center;
+        font-size: 320%;
+        padding: 0px;
+    }
+
+    
+
 }
