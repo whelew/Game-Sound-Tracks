@@ -91,19 +91,34 @@ footer > ul {
     margin-top: 1rem;
 }
 
-#hades {
+.wrapper {
     display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     padding: 1rem;
     margin: 1rem;
 }
 
-span {
- 
+.wrapper-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.soundtrack-text {
+    width: 50%;
+    height: 25%;
+    padding: 1rem;
+    margin: 0;
 }
 
 .responsive-iframe {
- 
+    overflow: hidden;
+    border-radius: 5%;
+    width: 450px;
+    height: 300px;
 }
 
 /* mobile screens */
