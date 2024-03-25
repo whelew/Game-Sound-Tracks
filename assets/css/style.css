@@ -82,6 +82,10 @@ main {
 
 footer {
     background-color: rgb(153, 0, 204);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer > ul {
@@ -89,6 +93,10 @@ footer > ul {
     justify-content: space-evenly;
     list-style-type: none;
     margin-top: 1rem;
+}
+
+i {
+    color:rgb(20, 211, 205);
 }
 
 .wrapper {
@@ -129,7 +137,7 @@ footer > ul {
 
     header {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
 
     #logo {
