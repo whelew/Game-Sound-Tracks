@@ -34,6 +34,7 @@ header {
 }
 
 /* nav bar dropdown menu*/
+
 nav {
     position: absolute;
     width: 100%;
@@ -81,6 +82,28 @@ main {
 
 footer {
     background-color: rgb(153, 0, 204);
+}
+
+footer > ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+#hades {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+span {
+ 
+}
+
+.responsive-iframe {
+ 
 }
 
 /* mobile screens */
@@ -138,6 +161,7 @@ footer {
     #menu {
         margin-bottom: 0rem;
     }
+
 }
 
 @media screen and (min-width: 992px) {
