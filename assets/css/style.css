@@ -53,9 +53,12 @@ h2 {
     padding: 1rem;
 }
 
+/* border styles */
+
 .box {
   border-style: solid;
-  border-color: white;
+  border-color: black;
+  background-color: rgba(153, 10, 204, 0.50);
 }
 
 .box-track {
@@ -110,7 +113,15 @@ main {
     background-color: black;
     /*fills up surplus space*/
     flex: 1 0 auto;
-    margin-bottom: 45px;
+    margin-bottom: 47px;
+}
+
+/* wallpaper */
+
+#wallpaper {
+    height: 500px;
+    width: 100%;
+    background: url(https://media.istockphoto.com/id/1356435886/vector/modern-dark-gradient-grid-mesh-background.jpg?s=612x612&w=0&k=20&c=AceSl6uWraG7tFN_xzt7_eXFDuHUyA6wV5QEtegTaIc=) no-repeat center center/cover;
 }
 
 footer {
