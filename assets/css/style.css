@@ -31,6 +31,7 @@ header {
     font-size: 4vh;
     padding: 0px;
     padding-bottom: 1rem;
+    padding-left: 1rem;
 }
 
 /* nav bar dropdown menu*/
@@ -78,6 +79,7 @@ main {
     background-color: black;
     /*fills up surplus space*/
     flex: 1 0 auto;
+    margin-bottom: 45px;
 }
 
 footer {
@@ -173,7 +175,7 @@ i {
 
     .responsive-iframe {
         max-width: 100%;
-        height: fit-content;
+        max-height: fit-content;
     }
 
     span {
