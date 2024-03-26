@@ -166,7 +166,7 @@ i {
 
 /* mobile screens */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
 
     header {
         display: flex;
@@ -221,7 +221,8 @@ i {
         display: flex;
         position: relative;
         flex-direction: column-reverse;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        border-style: none;
     }
 
     .nav-toggle-label {
@@ -264,10 +265,6 @@ i {
         text-align: center;
         font-size: 320%;
         padding: 0px;
-    }
-
-    nav {
-        border-style: none;
     }
 
 }
