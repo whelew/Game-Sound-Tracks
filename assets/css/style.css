@@ -139,6 +139,10 @@ main {
    border-width: 7px;
 }
 
+#news-letter-title {
+    
+}
+
 input[type=text] {
     width: 100%;
     margin: auto;
@@ -160,8 +164,10 @@ input[type=submit] {
     background-color: aquamarine;
 }
 
-input[type=file] {
-    align: center;
+input[type=file] {  
+}
+
+form {
 }
 
 /* artwork form styling */
