@@ -120,7 +120,7 @@ main {
 /* wallpaper */
 
 .wallpaper {
-    height: 500px;
+    height: fit-content;
     width: 100%;
     background: url(https://media.istockphoto.com/id/1356435886/vector/modern-dark-gradient-grid-mesh-background.jpg?s=612x612&w=0&k=20&c=AceSl6uWraG7tFN_xzt7_eXFDuHUyA6wV5QEtegTaIc=) no-repeat center center/cover;
 }
@@ -158,6 +158,10 @@ input[type=submit] {
     margin-top: 10px;
     box-sizing: border-box;
     background-color: aquamarine;
+}
+
+input[type=file] {
+    align: center;
 }
 
 /* artwork form styling */
