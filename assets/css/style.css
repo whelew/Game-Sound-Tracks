@@ -124,6 +124,8 @@ main {
     background: url(https://media.istockphoto.com/id/1356435886/vector/modern-dark-gradient-grid-mesh-background.jpg?s=612x612&w=0&k=20&c=AceSl6uWraG7tFN_xzt7_eXFDuHUyA6wV5QEtegTaIc=) no-repeat center center/cover;
 }
 
+/* footer styling */
+
 footer {
     background-color: rgb(153, 0, 204);
     position: fixed;
@@ -143,6 +145,8 @@ i {
     color: rgb(255, 123, 0);
 }
 
+/* border styling for soundtracks.html */
+
 .wrapper {
     display: flex;
     flex-direction: row;
@@ -160,6 +164,8 @@ i {
     margin: 1rem;
     background-color:rgb(153, 0, 204);
 }
+
+/* border styling for text boxes */
 
 .soundtrack-text {
     width: 50%;
@@ -226,6 +232,8 @@ i {
 
 }
 
+/* ipad screen css */
+
 @media screen and (min-width: 768px) {
 
     nav {
@@ -261,6 +269,8 @@ i {
     }
 
 }
+
+/* computer screen */
 
 @media screen and (min-width: 992px) {
 
