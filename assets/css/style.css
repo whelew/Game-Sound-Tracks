@@ -32,6 +32,7 @@ header {
     padding: 0px;
     padding-bottom: 1rem;
     padding-left: 1rem;
+    margin: 1rem;
 }
 
 /* Home screen css */
@@ -77,9 +78,9 @@ nav {
     border: 2px, solid, #3a3f3a;
     font-size: 100%;
     text-align: center;
-    background-color: rgb(153, 0, 204);
     display: none;
     top: 100%;
+    background-color: rgb(153, 0, 204);
     border-style: solid;
     border-width: 5px;
     border-color: rgb(103, 9, 110);
@@ -124,6 +125,13 @@ main {
     background: url(https://media.istockphoto.com/id/1356435886/vector/modern-dark-gradient-grid-mesh-background.jpg?s=612x612&w=0&k=20&c=AceSl6uWraG7tFN_xzt7_eXFDuHUyA6wV5QEtegTaIc=) no-repeat center center/cover;
 }
 
+/* newsletter styling */ 
+
+#news-letter {
+   border: 2px, solid, orange;
+   border-width: 100%;
+}
+
 /* footer styling */
 
 footer {
@@ -165,14 +173,17 @@ i {
     background-color:rgb(153, 0, 204);
 }
 
-/* border styling for text boxes */
+/* text styling for soundtrack.html */
 
 .soundtrack-text {
+    text-align: center;
     width: 50%;
     height: 25%;
     padding: 1rem;
     margin: 0;
 }
+
+/* iframe styling */
 
 .responsive-iframe {
     overflow: hidden;
@@ -181,6 +192,12 @@ i {
     height: 300px;
 }
 
+/* soundtrack-paragraph-text */
+
+.soundtrack-text > p {
+    font-size: 5vw;
+    padding: 1rem;
+}
 /* mobile screens */
 
 @media screen and (max-width: 767px) {
@@ -196,10 +213,12 @@ i {
 
     nav {
         text-align: center;
+        padding-top: 1rem;
+        background-color: rgb(69, 4, 73);
     }  
 
     nav > a {
-        font-size: 70%;
+        font-size: 100%;
     }
 
     .wrapper {
@@ -224,6 +243,8 @@ i {
     .responsive-iframe {
         max-width: 100%;
         max-height: fit-content;
+        height: 70%;
+        width: 80%;
     }
 
     span {
@@ -260,6 +281,23 @@ i {
             align-self: auto;
             margin-bottom: 1rem;
         }
+
+        nav {
+            border-style: solid;
+            border-color: black;
+            background-color: rgb(103, 9, 110);
+        }
+
+    .soundtrack-text > p {
+            font-size: 120%;
+    }
+
+    .responsive-iframe {
+        width: min-content;
+        height: 75%;
+        margin-top: 15%;
+}
+
 }
 
 @media screen and (min-width: 820px) {
@@ -286,6 +324,18 @@ i {
         text-align: center;
         font-size: 320%;
         padding: 0px;
+    }
+
+    .responsive-iframe {
+        overflow: hidden;
+        border-radius: 5%;
+        width: 450px;
+        height: 300px;
+        margin-top: 0;
+    }
+
+    .soundtrack-text > p {
+        font-size: 20px;
     }
 
 }
