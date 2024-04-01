@@ -115,7 +115,6 @@ nav {
     width: 100%;
     padding: 0 1rem;
     list-style-type: none;
-    border: 2px, solid, #3a3f3a;
     font-size: 100%;
     text-align: center;
     display: none;
@@ -145,7 +144,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    border: 2px, solid, #3a3f3a;
     border-radius: 2px;
     font-size: 3vh;
 }
@@ -377,7 +375,7 @@ i {
         width: 80%;
     }
 
-    span {
+    div > div {
         text-align: center;
     }
 
@@ -432,11 +430,6 @@ i {
             font-size: 180%;
             align-self: auto;
             margin-bottom: 1rem;
-        }
-
-        nav {
-            border-style: none;
-            background-color: none;
         }
 
         #home-text {
