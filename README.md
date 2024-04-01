@@ -27,3 +27,18 @@ The website is aimed at lovers of both video games and music, whether you are ju
     - This section includes 5 iconic game sound tracks. Each individual soundtrack has a breakdown of what is going on in the track along with a youtube video player to allow the user to listen to the track alongside the information.
 
 ![Screenshot of youtube video with placeholder text to show context.](/assets/images/youtube.jpg)
+
+5. Artwork - Newsletter
+    - The artwork page includes 2 forms to allow the user to either sign up for a newsletter or submit artwork to be used in the newsletter. 
+    - This will help create a community that the page will be able to grow with. 
+
+![Screenshot of newsletter and artwork signup forms](/assets/images/signupform.jpg)
+
+6. Footer 
+    - The footer includes links to all the social media platforms, facebook, twitter, instagram and youtube.
+    - I added a discord link as well with the purpose of having a forum that would allow a community to form where people can chat and share there own thoughts on the content.
+
+![Screenshot of footer](/assets/images/Footer.jpg)
+
+## Future Features
+
