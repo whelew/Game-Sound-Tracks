@@ -17,5 +17,13 @@ The website is aimed at lovers of both video games and music, whether you are ju
     - Each html page has the same wallpaper image covering the main body of the website. 
     - This is to help tie the asthetic of the website together and maintain the theme of the website the user will now be expecting. 
 
-3.     
+3. Home Page
+    - The home page is there to help the user understand the purpose of the website.
+    - It also includes a section of a brief overview of what we will be covering, chords, instrumentation and genre.
 
+![Screenshot of homepage and the main three pillars of game music](/assets/images/homepage.jpg)      
+
+4. Soundtracks
+    - This section includes 5 iconic game sound tracks. Each individual soundtrack has a breakdown of what is going on in the track along with a youtube video player to allow the user to listen to the track alongside the information.
+
+![Screenshot of youtube video with placeholder text to show context.](/assets/images/youtube.jpg)
