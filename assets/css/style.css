@@ -47,6 +47,14 @@ h2 {
     margin: 1rem;
 }
 
+#home-title {
+    background-color: rgba(153, 10, 204, 0.50);
+    border-style: ridge;
+    border-color: rgb(103, 9, 110);
+    text-decoration-thickness: 6px;
+    padding: 1rem;
+}
+
 /* soundtrack title styling */
 
 #soundtrack-title {
@@ -177,10 +185,15 @@ input[type=submit] {
     background-color: rgb(69, 4, 73);
 }
 
-input[type=file] {  
+input[type=file] {
+      position: relative;
+      margin: auto;
+      margin-left: 25%;
 }
 
-form {
+#file-upload-button {
+    box-sizing: border-box;
+    background-color: rgb(69, 4, 73);
 }
 
 /* artwork form styling */
@@ -394,6 +407,11 @@ i {
         nav {
             border-style: none;
             background-color: none;
+        }
+
+        #home-text {
+            width: 90%;
+            margin: auto;
         }
 
     .soundtrack-text > p {
