@@ -501,7 +501,11 @@ i {
         justify-content: space-evenly;
         margin: 1rem;
         padding: 1rem;
+        font-size: 34px;
     }
     
+    #home-text {
+        font-size: 36px;
+    }
 
 }
