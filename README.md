@@ -42,3 +42,6 @@ The website is aimed at lovers of both video games and music, whether you are ju
 
 ## Future Features
 
+1. Adding a forum page where people are able to leave comments, this would be ideal for building a community. 
+2. I would like to add a gallery for artwork to be featured, I would add this to the bottom of the artwork page. 
+3. I would want to turn each soundtrack page into its own individual page so that I would be able to add more content whilst keeping the look of the website clean. 

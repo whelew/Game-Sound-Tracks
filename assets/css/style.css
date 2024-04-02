@@ -320,6 +320,10 @@ i {
     height: 300px;
 }
 
+.iframe-margin {
+    margin: auto;
+}
+
 /* soundtrack-paragraph-text */
 
 .soundtrack-text > p {
@@ -387,8 +391,6 @@ i {
     .responsive-iframe {
         max-width: 100%;
         max-height: fit-content;
-        height: 70%;
-        width: 80%;
     }
 
     div > div {
@@ -459,8 +461,6 @@ i {
 
     .responsive-iframe {
         width: min-content;
-        height: 75%;
-        margin-top: 15%;
 }
 
     input[type=file] {
@@ -479,6 +479,7 @@ i {
         margin-left: 25%;
     }
 
+    
 }
 
 /* computer screen */
@@ -503,8 +504,16 @@ i {
         margin-top: 0;
     }
 
+    .soundtrack-text > h3 {
+        font-size: 32px;
+    }
+
     .soundtrack-text > p {
-        font-size: 20px;
+        font-size: 26px;
+    }
+
+    #soundtrack-title {
+        font-size: 2vw;
     }
 
     #home-content {
@@ -517,6 +526,10 @@ i {
         font-size: 34px;
     }
     
+    #home-title {
+        font-size: 2vw;
+    }
+
     #home-text {
         font-size: 36px;
     }
