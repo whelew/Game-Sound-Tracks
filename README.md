@@ -114,3 +114,27 @@ I used Google Chromes developer tool Lighthouse to check the performance of each
 - Youtube - I embedded 5 videos from youtube, using the share button followed by copying the embedded code.
 - W3schools - For quick and useful information when trying to problem solve when writing with HTML and CSS.
 
+## Deployment 
+
+I deployed my site on Github. 
+
+1. First go on to your github repository page. 
+2. Then go to the settings tab.
+3. In the settings tab go to the pages tab on the side menu.
+4. Ensure that the source is "Deploy from a branch" 
+5. Then make sure the Branch is set to "Main" and the folder selected is the "root" folder.
+6. After this click save and this will deploy a live version of the website.
+
+- The live site can be found from this link - https://whelew.github.io/Game-Sound-Tracks/ 
+
+### Cloning the site.
+
+Instructions to clone: 
+
+1. Go to https://github.com/whelew/Game-Sound-Tracks.
+2. Click on the green code button. 
+3. Copy the HTTPS URL or Github CLI link. 
+4. Open Git Bash. 
+5. Change your current working directory to the location where you want the clone directory.
+6. Type git clone, followed by the URL you copied. 
+7. Press enter to create your local clone.
