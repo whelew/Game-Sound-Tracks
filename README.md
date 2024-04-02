@@ -51,6 +51,10 @@ The website is aimed at lovers of both video games and music, whether you are ju
 ### HTML
 
 - I tested all my individual HTML pages on [W3C Validator](https://validator.w3.org/)
+- All HTML have now passed without error.
+
+![Screenshot of no errors for HTML pages](/assets/images/noerrors.jpg)
+
 - A few errors were found, it did not like having a p element as a child of a span. 
 
 ![Screenshot of span error in soundtrack.html](/assets/images/span-error.jpg)
@@ -58,3 +62,14 @@ The website is aimed at lovers of both video games and music, whether you are ju
 - To fix this I changed all span elements to divs. 
 
 ![Screenshot of no errors after changing spans to divs](/assets/images/divfix.jpg)
+
+### CSS
+
+- I tested my css using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+- One syntax error was found, I used "," when defining a border style. 
+
+![Screenshot of css error](/assets/images/css-error.jpg)
+
+- This error was easily fixable, I ended up removing the border styles alltogether because they were no longer needed.
+
+![Screenshot of css without errors](/assets/images/CSS-no-errors.jpg)
