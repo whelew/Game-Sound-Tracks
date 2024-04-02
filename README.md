@@ -45,3 +45,16 @@ The website is aimed at lovers of both video games and music, whether you are ju
 1. Adding a forum page where people are able to leave comments, this would be ideal for building a community. 
 2. I would like to add a gallery for artwork to be featured, I would add this to the bottom of the artwork page. 
 3. I would want to turn each soundtrack page into its own individual page so that I would be able to add more content whilst keeping the look of the website clean. 
+
+## Testing
+
+### HTML
+
+- I tested all my individual HTML pages on [W3C Validator](https://validator.w3.org/)
+- A few errors were found, it did not like having a p element as a child of a span. 
+
+![Screenshot of span error in soundtrack.html](/assets/images/span-error.jpg)
+
+- To fix this I changed all span elements to divs. 
+
+![Screenshot of no errors after changing spans to divs](/assets/images/divfix.jpg)
