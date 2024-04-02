@@ -30,6 +30,22 @@ I used Balsamiq to create some wireframes of how my design will initially look.
 
 ![Screenshot of mobile screen design](/assets/images/mobile-wireframe.jpg) ![Screenshot of mobile screen design](/assets/images/mobile-form-wireframe.jpg)
 
+## Color Scheme
+
+- Here is the color scheme I used, I wanted to capture a retro feel of 80's gamecraft which I think works well with the font style and color of the font. 
+
+![Screenshot of color scheme](/assets/images/color-scheme.jpg)
+
+## Typography
+
+- I decided to use google fonts, specifically, the font "Honk". It suited the aesthetic I was aiming for and tied in well with the overall color scheme.
+
+![Screenshot of example honk font style on google fonts website](/assets/images/font-typo.jpg)
+
+- Here is an example of the font color scheme, this was causing some contrast issues which I believe was due to the darker gradient of the colors in the font color scheme.
+
+![Screenshot of honk color scheme](/assets/images/font-color-scheme.jpg)
+
 ## **Features** 
 
 1. Nav Bar
