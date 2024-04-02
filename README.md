@@ -73,3 +73,27 @@ The website is aimed at lovers of both video games and music, whether you are ju
 - This error was easily fixable, I ended up removing the border styles alltogether because they were no longer needed.
 
 ![Screenshot of css without errors](/assets/images/CSS-no-errors.jpg)
+
+### Lighthouse
+
+I used Google Chromes developer tool Lighthouse to check the performance of each individual webpage on my site.
+
+#### Index.html
+
+- The index had a good review overall, the performance varied from 87-91 on multiple checks.
+![Screenshot of performance of index.html](/assets/images/index-html-check.jpg)
+
+#### Soundtrack.html
+
+- The soundtrack html had a good review except from its performance. I have 5 embedded youtube videos on this page and I believe this was the main issue in slowing down the performance of the site.
+![Screenshot of soundtrack.html performance](/assets/images/soundtrack-html-check.jpg)
+
+#### Artwork.html
+
+- The artwork html page had a good review overall.
+![Screenshot of artwork.html performance](/assets/images/artwork-html-check.jpg) 
+
+#### Submit.html
+
+- The submit html page functions well, it has the least amount of content therefore has the highest performance.
+![Screenshot of submit.html performance](/assets/images/submit-html-check.jpg)
