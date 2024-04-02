@@ -97,3 +97,20 @@ I used Google Chromes developer tool Lighthouse to check the performance of each
 
 - The submit html page functions well, it has the least amount of content therefore has the highest performance.
 ![Screenshot of submit.html performance](/assets/images/submit-html-check.jpg)
+
+## Unfixed Bugs
+
+- When testing on mobile phones, the font loads however the color will of the font does not, it is readable however it will need to be updated with a new font for smaller screen sizes in a media query.
+- The Input type=file button was difficult to center, when text aligned center it, due to its own format would still not sit right in line with the other content. 
+
+## Technologies Used
+
+- HTML5 - All code was written using HTML. 
+- CSS - Cascading style sheet used to style my html code.
+- VS Code - The main IDE is used. I decided to use VS Code after a discussion with my mentor, it is much more reliable than Codeanywhere and runs a lot faster.
+- Codeanywhere - Online IDE 
+- Font Awesome - A great website for logos and icons.
+- Google Fonts - Open-source fonts and icons that are easy to integrate into html code reliably. 
+- Youtube - I embedded 5 videos from youtube, using the share button followed by copying the embedded code.
+- W3schools - For quick and useful information when trying to problem solve when writing with HTML and CSS.
+
