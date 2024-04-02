@@ -175,6 +175,7 @@ main {
    border-style: solid;
    border-color: rgb(69, 4, 73);
    border-width: 7px;
+   font-size: 4vh;
 }
 
 #news-letter-title {
@@ -215,7 +216,6 @@ input[type=submit] {
 input[type=file] {
       position: relative;
       margin: auto;
-      margin-left: 25%;
 }
 
 #file-upload-button {
@@ -326,6 +326,22 @@ i {
     font-size: 5vw;
     padding: 1rem;
 }
+
+/* submit.html styling */ 
+
+#subscribe {
+    font-size: 4vw;
+    position: relative;
+    margin: auto;
+    padding: 1rem;
+    background-color: rgb(153, 0, 204);
+    text-align: center;
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(69, 4, 73);
+    border-width: 7px;  
+}
+
 /* mobile screens */
 
 @media screen and (max-width: 767px) {
@@ -447,12 +463,20 @@ i {
         margin-top: 15%;
 }
 
+    input[type=file] {
+        margin-left: 15%;
+    }
+
 }
 
 @media screen and (min-width: 820px) {
 
     #menu {
         margin-bottom: 0rem;
+    }
+
+    input[type=file] {
+        margin-left: 25%;
     }
 
 }
@@ -463,10 +487,6 @@ i {
 
     #menu {
         font-size: 200%;
-    }
-
-    #menu a:hover {
-        border-bottom: 10px, solid, black;
     }
 
     #logo {
@@ -501,4 +521,23 @@ i {
         font-size: 36px;
     }
 
+    #art-work {
+        font-size: 2vw;
+    }
+
+    #art-text {
+        font-size: 2vw;
+    }
+
+    #art-text > h3 {
+        font-size: 2vw;
+    }
+
+    #news-letter-title {
+        font-size: 2vw;
+    }
+
+    #news-letter {
+        font-size: 2vw;
+    }
 }
