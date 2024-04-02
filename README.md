@@ -6,6 +6,45 @@ The website is aimed at lovers of both video games and music, whether you are ju
 
 ![Screenshot of finished website design for all screens](/assets/images/Website%20Display.png)
 
+# Table of Contents
+
+## [Design](#design-1)
+
+-   [Home Page](#home-page)
+-   [Soundtracks Page](#soundtracks-page)
+-   [Artwork Page](#artwork-page)
+-   [Mobile Screens](#mobile-screens)
+
+## [Color Scheme](#color-scheme-1)
+
+## [Typography](#typography)
+
+## [Features](#features-1)
+
+-   [Future Features](#future-features)
+
+## [Testing](#testing-1)
+
+-   [HTML](#html)
+-   [CSS](#css)
+
+## [Lighthouse Test](#lighthouse)
+
+-   [Index](#indexhtml)
+-   [Soundtrack](#soundtrackhtml)
+-   [Artwork](#artworkhtml)
+-   [Submit](#submithtml)
+
+## [Unfixed bugs](#unfixed-bugs-1)
+
+## [Technologies](#technologies-used)
+
+## [Deployment](#deployment-1)
+
+-   [Cloning](#cloning-the-site)
+
+## [Credits](#credits-1)
+
 ## **Design**
 
 I used Balsamiq to create some wireframes of how my design will initially look. 
@@ -26,7 +65,7 @@ I used Balsamiq to create some wireframes of how my design will initially look.
 
 - The artwork/form page was quite simple, its design did not change a lot, and was kept similar on both mobile screens and larger screens.
 
-### Mobile Screen Designs
+### Mobile Screens
 
 - Here are the mobile designs, the menu becomes a burger icon menu and the content is always aligned in a column.
 
@@ -84,7 +123,7 @@ I used Balsamiq to create some wireframes of how my design will initially look.
 
 ![Screenshot of footer](/assets/images/Footer.jpg)
 
-## **Future Features**
+### **Future Features**
 
 1. Adding a forum page where people are able to leave comments, this would be ideal for building a community. 
 2. I would like to add a gallery for artwork to be featured, I would add this to the bottom of the artwork page. 
@@ -118,26 +157,26 @@ I used Balsamiq to create some wireframes of how my design will initially look.
 
 ![Screenshot of css without errors](/assets/images/CSS-no-errors.jpg)
 
-### Lighthouse
+## Lighthouse
 
 I used Google Chromes developer tool Lighthouse to check the performance of each individual webpage on my site.
 
-#### Index.html
+### Index.html
 
 - The index had a good review overall, the performance varied from 87-91 on multiple checks.
 ![Screenshot of performance of index.html](/assets/images/index-html-check.jpg)
 
-#### Soundtrack.html
+### Soundtrack.html
 
 - The soundtrack html had a good review except from its performance. I have 5 embedded youtube videos on this page and I believe this was the main issue in slowing down the performance of the site.
 ![Screenshot of soundtrack.html performance](/assets/images/soundtrack-html-check.jpg)
 
-#### Artwork.html
+### Artwork.html
 
 - The artwork html page had a good review overall.
 ![Screenshot of artwork.html performance](/assets/images/artwork-html-check.jpg) 
 
-#### Submit.html
+### Submit.html
 
 - The submit html page functions well, it has the least amount of content therefore has the highest performance.
 ![Screenshot of submit.html performance](/assets/images/submit-html-check.jpg)
