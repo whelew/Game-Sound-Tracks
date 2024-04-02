@@ -4,6 +4,8 @@ Video Game Sound Tracks is a website designed to showcase the iconic music found
 
 The website is aimed at lovers of both video games and music, whether you are just a fan of video games in general or you personally are learning to compose, it is designed to bring a community together to celebrate the beauty of video game music.
 
+![Screenshot of finished website design for all screens](/assets/images/Website%20Display.png)
+
 ## **Design**
 
 I used Balsamiq to create some wireframes of how my design will initially look. 
@@ -68,7 +70,7 @@ I used Balsamiq to create some wireframes of how my design will initially look.
 4. Soundtracks
     - This section includes 5 iconic game sound tracks. Each individual soundtrack has a breakdown of what is going on in the track along with a youtube video player to allow the user to listen to the track alongside the information.
 
-![Screenshot of youtube video with placeholder text to show context.](/assets/images/youtube.jpg)
+![Screenshot of youtube video with placeholder text to show context.](/assets/images/Soundtrack-html.jpg)
 
 5. Artwork - Newsletter
     - The artwork page includes 2 forms to allow the user to either sign up for a newsletter or submit artwork to be used in the newsletter. 
