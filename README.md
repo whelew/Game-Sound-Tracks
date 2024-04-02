@@ -4,6 +4,32 @@ Video Game Sound Tracks is a website designed to showcase the iconic music found
 
 The website is aimed at lovers of both video games and music, whether you are just a fan of video games in general or you personally are learning to compose, it is designed to bring a community together to celebrate the beauty of video game music.
 
+## **Design**
+
+I used Balsamiq to create some wireframes of how my design will initially look. 
+
+### Home Page
+
+- This design did change slightly, I added in 3 boxes of information, I wanted it to be a brief overview of what will be covered on the site.
+
+![Screenshot of original Home Page Design](/assets/images/Home-Wireframe.jpg)
+
+### Soundtracks Page
+
+- Originally I wanted there to be 5 seperate soundtrack pages that would cover a particular soundtrack in detail, I decided against this as it looked a lot cleaner doing it all on one page.
+
+![Screenshot of original Soundtracks Page](/assets/images/Soundtrack-wireframe.jpg)
+
+### Artwork Page
+
+- The artwork/form page was quite simple, its design did not change a lot, and was kept similar on both mobile screens and larger screens.
+
+### Mobile Screen Designs
+
+- Here are the mobile designs, the menu becomes a burger icon menu and the content is always aligned in a column.
+
+![Screenshot of mobile screen design](/assets/images/mobile-wireframe.jpg) ![Screenshot of mobile screen design](/assets/images/mobile-form-wireframe.jpg)
+
 ## **Features** 
 
 1. Nav Bar
@@ -40,13 +66,13 @@ The website is aimed at lovers of both video games and music, whether you are ju
 
 ![Screenshot of footer](/assets/images/Footer.jpg)
 
-## Future Features
+## **Future Features**
 
 1. Adding a forum page where people are able to leave comments, this would be ideal for building a community. 
 2. I would like to add a gallery for artwork to be featured, I would add this to the bottom of the artwork page. 
 3. I would want to turn each soundtrack page into its own individual page so that I would be able to add more content whilst keeping the look of the website clean. 
 
-## Testing
+## **Testing**
 
 ### HTML
 
@@ -102,6 +128,7 @@ I used Google Chromes developer tool Lighthouse to check the performance of each
 
 - When testing on mobile phones, the font loads however the color will of the font does not, it is readable however it will need to be updated with a new font for smaller screen sizes in a media query.
 - The Input type=file button was difficult to center, when text aligned center it, due to its own format would still not sit right in line with the other content. 
+- Contrast error when using [wave evaluation tool](https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh), the font has a mixture of colors, I believe that the darker color gradient at the bottom of the font is what is causing the contrast error, to compensate for this I have tried to increase the font size where possible.  
 
 ## Technologies Used
 
@@ -114,7 +141,7 @@ I used Google Chromes developer tool Lighthouse to check the performance of each
 - Youtube - I embedded 5 videos from youtube, using the share button followed by copying the embedded code.
 - W3schools - For quick and useful information when trying to problem solve when writing with HTML and CSS.
 
-## Deployment 
+## **Deployment** 
 
 I deployed my site on Github. 
 
