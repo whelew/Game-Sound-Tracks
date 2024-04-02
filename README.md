@@ -27,6 +27,7 @@ The website is aimed at lovers of both video games and music, whether you are ju
 
 -   [HTML](#html)
 -   [CSS](#css)
+-   [Features Test](#features-test)
 
 ## [Lighthouse Test](#lighthouse)
 
@@ -156,6 +157,17 @@ I used Balsamiq to create some wireframes of how my design will initially look.
 - This error was easily fixable, I ended up removing the border styles alltogether because they were no longer needed.
 
 ![Screenshot of css without errors](/assets/images/CSS-no-errors.jpg)
+
+### Features Test
+
+|Feature  |Test      |Outcome	|
+|:-------:|:--------:|:--------:|
+|Nav-Bar  |Clicked on menu links| Taken to corresponding HTML page. |
+|Burger Icon | Clicked on game controller burger icon | The Nav Bar Opens |
+|Footer | Clicked on social media link icons | Taken to a new web page that opens the corresponding social media website in a new tab. |
+|Youtube Videos| Clicked on embedded Youtube Videos | Youtube videos would play embedded link on the website, there was no autoplay, they only played once clicked, full screen feature was available and working.|
+|Form Inputs | Input wrong information. | The input forms would require all information to be filled in before submitting. Email address input also needed an @ sign to work correctly.|
+Form Submit | Submitted form | When submitted the user would be sent to a new html page saying thank you for subscribing. 
 
 ## Lighthouse
 
