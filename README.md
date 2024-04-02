@@ -183,3 +183,11 @@ Instructions to clone:
 5. Change your current working directory to the location where you want the clone directory.
 6. Type git clone, followed by the URL you copied. 
 7. Press enter to create your local clone.
+
+## **Credits**
+
+- The code was all written by myself, [W3schools](https://www.w3schools.com/html/) was a helpful tool in providing useful information when I struggled with working out an issue. 
+- My mentor also helped provide useful solutions and identified issues or errors.
+- The content on the page was all written by myself also. 
+- The Icon Images were taken from [Font Awesome](https://fontawesome.com/) 
+- The Background Wallpaper Image was from [iStock](https://www.istockphoto.com/) I purchased it so I could use it publically.
